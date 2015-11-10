@@ -1,0 +1,68 @@
+{
+  "name": "netflix",
+  "version": "0.1.1",
+  "description": "Netflix Demo",
+  "main": "src/config/app.js",
+  "engines": {
+    "node": "5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadebyAe/netflix"
+  },
+  "keywords": [
+    "gulp",
+    "react",
+    "browserify",
+    "seed",
+    "boilerplate",
+    "ES6",
+    "babel",
+    "mocha",
+    "chai"
+  ],
+  "scripts": {
+    "dev": "gulp dev",
+    "test": "node --exclude=node_module *_test.js | faucet",
+    "build": "gulp build",
+    "start": "node server.js"
+  },
+  "author": "Ae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MadebyAe/netflix/issues"
+  },
+  "homepage": "https://www.netflix.com",
+  "dependencies": {
+    "bigwheel": "git://github.com/bigwheel-framework/bigwheel.git",
+    "bind": "git://github.com/madebyae/bind.git",
+    "core": "git+https://git@bitbucket.org/madebyae/core.git",
+    "express": "^4.13.0",
+    "gsap": "git://github.com/madebyae/gsap.git"
+  },
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-preset-es2015": "^6.1.2",
+    "babelify": "^7.2.0",
+    "browser-sync": "^2.7.3",
+    "browserify": "^10.2.1",
+    "browserify-express": "^0.1.4",
+    "chai": "^2.3.0",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "2.3.0",
+    "gulp-brfs": "^0.1.0",
+    "gulp-changed": "^1.2.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-stylus": "*",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.7",
+    "jeet": "^6.1.2",
+    "nib": "^1.1.0",
+    "stringify": "^3.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.0"
+  }
+}

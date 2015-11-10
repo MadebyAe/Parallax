@@ -1,0 +1,238 @@
+#knob
+  position absolute
+#content
+  position absolute
+  height 300px
+  right 0
+  top 0px
+  width 300px
+  overflow hidden
+  background red
+  div
+    background linear-gradient(top, aqua, blue)
+    position relative
+    .box
+      top 0
+      position relative
+      background transparent
+.seenapse
+  width 160px
+  height 180px
+  position fixed
+  padding 0!important
+  z-index 2
+  overflow initial
+  &.visible
+    visibility visible!important
+  &.hidden  
+    visibility hidden!important
+  &.avatar-children
+    z-index 1
+    p
+      font-size 16px!important 
+      span
+        background #000
+  &.avatar-current
+    span
+      background transparent    
+  &.avatar-parent
+    pointer-events auto
+    span
+      background transparent 
+  p  
+    position absolute
+    width 100%
+    height 20px
+    font-size 11px
+    line-height 20px
+    color color_gray
+    text-align center
+    z-index 10 
+    top auto
+    bottom -20px
+    left 0
+    span
+      font-weight 200
+  a
+    width 100%
+    height 100%
+    display block
+    border-radius @width
+    background-postion center
+    background-size cover  
+    background-color color_darkgray
+.avatar-add
+  width 100px
+  height 100px
+  background url('/dist/img/ui/ui-add.png') center no-repeat
+  p
+    text-transform uppercase
+    color color_gray
+    bottom 5px
+    display block
+    font-size 9px
+    font-weight 400
+    span
+      text-transform none
+      font-size 11px
+      font-weight 200
+      line-height 11px
+      display block
+  a 
+    background-color transparent
+.avatar-current
+  span
+    background transparent
+  .url
+    padding 5px
+    position absolute
+    width 100%
+    height 100%
+    input
+      color #ffffff
+      background #222222
+      padding 5px 10px
+      border-radius 20px
+      width 80%
+      position relative
+      font-size 10px!important
+      &.error
+        border 1px solid #ff0000
+    p 
+      position relative
+      top 30%
+      color color_gray
+      font-size 10px!important
+      line-height 13px
+      margin 10px 0
+
+#resume
+  background-color color_green
+  color #000
+  border-radius 550px
+  position fixed
+  z-index 1
+  &.edit
+    background-color color_darkgray
+  .close
+    position absolute
+    right 0
+    z-index 2  
+  .title
+    position absolute
+    width 80%
+    left 10%
+    height auto
+    z-index 1
+    h2, input
+      background transparent
+      position relative
+      text-align center
+      width 100%
+      padding 0px 55px
+      font-weight 300
+      font-size 20px
+      line-height 32px
+      @media screen and (max-width: 1280px)
+        //padding 30px 25px 15px 25px
+        font-size 22px
+        line-height 22px
+      @media screen and (max-width: 1024px)
+        padding 30px 25px 15px 25px
+        font-size 18px
+        line-height 18px
+  .inner
+    width inherit
+    height inherit
+    position absolute
+    text-align center
+    font-size inherit
+    font-weight 300
+    display flex
+    align-items center
+    z-index 0
+    .description
+      font-size inherit
+      text-align center
+      padding 20px 15% 
+      width 100%
+      resize none
+      vertical-align center
+      span
+        font-size 11px
+        font-weight 700
+        text-transform uppercase
+        letter-spacing 0
+        display inline-block
+    textarea
+      color #ffffff 
+      font-weight inherit
+      letter-spacing 0.5px
+      background transparent
+       
+  .info
+    position absolute
+    bottom 0
+    height 80px 
+    width 100%
+    z-index 1
+    font-size 12px
+    font-weight 500
+    text-transform uppercase
+    color color_gray_info
+    .inner
+      position relative
+      width 100%
+      height 100px
+      display inline-block
+      font-weight 700
+      font-size 11px
+      .list
+        position relative
+        display inline-block
+        cursor pointer
+        margin 0px
+      .fav-count
+        margin 0 50px
+    .user
+      background-size cover
+      width 60px
+      height 60px
+      border-radius 90px
+      position absolute
+      bottom -10px
+      right 30%
+      display block
+      z-index 1
+    
+#resume-left
+  width 275px
+  height @width * 0.92
+  position fixed
+  z-index 0 
+  background-size cover
+  background-repeat no-repeat  
+  background-image url('/dist/svg/resume-left.svg')  
+  &.edit
+    background-image url('/dist/svg/resume-left-edit.svg') 
+    
+#resume-right
+  width 275px
+  height @width * 0.92
+  position fixed
+  z-index 0
+  background-size cover
+  background-repeat no-repeat
+  background-image url('/dist/svg/resume-right.svg')
+  &.edit
+    background-image url('/dist/svg/resume-right-edit.svg')
+    
+#resume-shadow
+  width 60px
+  height 60px
+  border-radius @width
+  position fixed
+  z-index 0
+  background #282D0E
+  &.edit
+    background #1A1B1C

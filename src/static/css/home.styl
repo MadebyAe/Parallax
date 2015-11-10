@@ -1,0 +1,141 @@
+.logo
+  background url('https://assets.nflxext.com/us/layout/ecweb/common/logo-shadow2x.png') center no-repeat
+  width 160px
+  height 50px
+  background-size 90%
+  position absolute
+  left 15px
+  top 15px
+  z-index 5
+  display block
+  
+
+.bg
+  background url('https://secure.netflix.com/ffe/siteui/acquisition/home/exploreexp/v3/Netflix_Originals/dd_image3_2000x1125.jpg') center no-repeat
+  width 100%
+  height 100%
+  position absolute
+  background-size cover
+  left 0
+  top 0
+  z-index 0
+  
+#background
+  background url('../img/background.png') left bottom no-repeat
+  width 100%
+  height 100%
+  background-size cover
+  position absolute
+  left 0
+  top 0
+  z-index 0
+
+#character
+  background url('../img/character.png') center no-repeat
+  background-size cover
+  width 100%
+  height 100%
+  position absolute
+  left 0
+  top 0
+  z-index 1 
+    
+#foreground
+  background url('../img/foreground.png') center no-repeat
+  background-size cover
+  width 100%
+  height 100%
+  position absolute
+  left 0
+  top 0
+  z-index 2
+  
+#fx
+  background url('../img/fx.png') center no-repeat
+  background-size cover
+  width 100%
+  height 100%
+  position absolute
+  left 0
+  top 0
+  z-index 3   
+
+#home-search
+  position absolute
+  width 80%
+  font-weight 200
+  letter-spacing 1px
+  color #717171
+  z-index 1
+  @media screen and (max-width: 600px)
+    width 90%
+  .browse-wrapper
+    position relative
+    margin 25px 0
+    width 80%
+    text-align left
+    @media screen and (max-width: 600px)
+      width 100%
+    h2
+      font-size inherit
+      text-align inherit
+      display inline-block
+          
+  .search-wrapper
+    margin 25px 0
+    position relative
+    display block
+    width 100%
+    height 47px
+    .home-search-text
+      display inline-block
+      col(7/12) 
+      position relative
+      height 39px
+      text-align left
+      @media screen and (max-width: 600px)
+        col(12/12)
+        text-align center
+      h2
+        font-size inherit
+        text-align inherit
+    .home-search-form
+      col(5/12)
+      @media screen and (max-width: 600px)
+        col(12/12)
+      input 
+        margin 3px
+        width 100%
+
+  .search-form 
+    display inline-block
+    col(1/2) 
+    position relative
+    height 39px
+    form 
+      height 39px
+      width 100%
+      display block
+      .close
+        position absolute
+        top 3px
+        right 5px
+        background color_gray center url('https://www.seenapse.it/img/buttons/header-search-cancel.png') no-repeat
+        width 25px
+        height 25px
+        margin 8px
+        border-radius 21px
+        z-index 1
+        cursor pointer
+      input
+        color #fff
+        width 100%
+        border-radius 39px
+        height 41px
+        padding 10px 20px 10px 30px
+        font-size 16px
+        font-weight 300
+        background color_darkgray 13px center url('https://www.seenapse.it/img/buttons/header-search.png') no-repeat
+        z-index 0
+        margin 0
+        placeholder(color color_gray,)
