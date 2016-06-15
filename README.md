@@ -26,39 +26,3 @@ NPM en modo producción
 
 `npm run build`
 
----
-
-##Endpoints del API
-
----
-
-Home
-
-* `POST api.seenapse.it/section/random`
-* `POST api.seenapse.it/section/staff`
-* `POST api.seenapse.it/section/following`
-
-
-Search
-
-* ✔ Algolia API
-
-
-Seenapse
-
-* `POST api.seenapse.it/seenapse/{handler}`
-* `POST api.seenapse.it/seenapse/create`
-* `POST api.seenapse.it/seenapse/update`
-
----
-
-In progress
-
-
-* `Random Staff Followers`
-Fixed Header
-
-* `Fill avatars`
-* `Magnetic to center heigh of body`
-* `Add label to user and display`
-* `Stop from zero`
