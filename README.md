@@ -1,5 +1,3 @@
-![image](http://static1.squarespace.com/static/530f6791e4b00ea782905759/54ac1036e4b039f270087aa4/54ac1037e4b0da465dd2b782/1420562488153/Logo+Seenapse.png?format=100w)
-
 
 ## Setup
 
